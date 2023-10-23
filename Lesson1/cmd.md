@@ -22,3 +22,16 @@ MacOs, Linux:
 ls
 ```
 
+Удаление файла в Windows:
+```sh
+del <filename>
+```
+MacOs, Linux:
+```sh
+rm <filename>
+```
+
+Посмотреть все коммиты
+```sh
+git log
+```
