@@ -61,12 +61,12 @@ git clean
 git branch
 ```
 
-### Для удаляния ветки (-d = delete).
+### Cоздания новой ветки.
 ```sh
-git branch -d <branch name>
+git branch <branch name>
 ```
 
-### Для удаляния ветки (-d - сокащение от deletes).
+### Для удаляния ветки (-d = delete).
 ```sh
 git branch -d <branch name>
 ```
@@ -76,7 +76,13 @@ git branch -d <branch name>
 git checkout
 ```
 
+### Чтобы создать ветку и сразу переключиться на неё, можно выполнить команду git checkout с параметром -b
+```sh
+git checkout -b <branch name>
+```
+
 ### Для слияния одной или нескольких веток в текущую. Затем она устанавливает указатель текущей ветки на результирующий коммит.
+(переходим на ветку в котору сливаем git merge <branch - котору вливаем>)
 ```sh
 git merge
 ```
