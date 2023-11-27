@@ -1,0 +1,39 @@
+###  Для написания проекта в выбранной папке необходимо в терминале ввести команду
+using Internal;
+using System;
+```sh
+dotnet new console
+```
+
+###  Запустить проект
+```sh
+dotnet run
+```
+
+Console.WriteLine($"{first} {second}");
+Для ввода переменных или формул
+
+dotnet new console - создать новый проект
+dotnet run - запустить новый проект
+Write(); - Вывод в одну строку
+WriteLine(); - В конце перейти на новую строку
+ReadLine(); - Считать строку из терминала
+Console.Clear(); - очистить консоль 
+Console.SetCursorPosition(xa, ya); точка в консоли
+int pos = IndexOf(array, 4); найти позицию элемента = 4
+(при написании кода выдает 0, поэтому при определении 
+позиции в начале мы пишем int pos = -1 и возвращаем -1)
+
+void Method2(string msg, int count) {
+  Console.WriteLine(msg);
+  Console.WriteLine(count);
+}
+Method2(int: 4, msg: "Message text");
+
+DataTime.Now.Year;
+
+strint text = "Я думал,"
+            + "что надо"
+            + "делать.";
+
+Convert.ToInt32(Console.ReadLine());
