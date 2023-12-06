@@ -15,18 +15,25 @@ Console.WriteLine($"{first} {second}");
 
 dotnet new console - создать новый проект
 dotnet run - запустить новый проект
-Write(); - Вывод в одну строку
-WriteLine(); - В конце перейти на новую строку
-ReadLine(); - Считать строку из терминала
-Console.Clear(); - очистить консоль 
+Write(); -Вывод в одну строку
+WriteLine(); -В конце перейти на новую строку
+ReadLine(); -Считать строку из терминала
+Console.Clear(); -очистить консоль
 Console.SetCursorPosition(xa, ya); точка в консоли
 int pos = IndexOf(array, 4); найти позицию элемента = 4
 (при написании кода выдает 0, поэтому при определении 
 позиции в начале мы пишем int pos = -1 и возвращаем -1)
+// Проверить тип 
+int a = 12;
+System.Console.WriteLine(a.GetType().Name);
+Console.WriteLine(a.GetType());
 
-void Method2(string msg, int count) {
+Счетчики i, j, k, l, m, n
+
+void Method2(string msg, int count)
+{
   Console.WriteLine(msg);
-  Console.WriteLine(count);
+Console.WriteLine(count);
 }
 Method2(int: 4, msg: "Message text");
 
@@ -40,15 +47,17 @@ Convert.ToInt32(Console.ReadLine());
 
 int[,] matrix = new int[5, 8];
 
-
-
-void PrintArray(int[,] matr) {
-  for (int i = 0; i < matrix.GetLength(0); i++) {
-    for (int j = 0; j < matrix.GetLength(1); j++) {
-    Console.Write($"{matrix[i, j]} ");
+void PrintArray(int[,] matr)
+{
+  for (int i = 0; i < matrix.GetLength(0); i++)
+  {
+    for (int j = 0; j < matrix.GetLength(1); j++)
+    {
+      Console.Write($"{matrix[i, j]} ");
     }
     Console.WriteLine();
   }
 }
 
 int[,] matrix = new int[3, 4];
+
